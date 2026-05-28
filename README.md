@@ -18,6 +18,8 @@ Uma calculadora moderna desenvolvida em JavaFX com interface gráfica estilizada
 - ✅ Botão limpar (`C`)
 - ✅ Visor expansível para contas grandes
 - ✅ Design moderno em JavaFX
+- ✅ Modo de cálculo da esquerda pra direita
+- ✅ Modo de cálculo padrão da matemática
 
 ---
 
