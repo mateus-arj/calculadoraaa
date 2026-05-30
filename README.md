@@ -1,6 +1,6 @@
 # Calculadora JavaFX
 
-![Calculadora](images/calculadora.png)
+![Calculadora](imagens/calculadora.png)
 
 Uma calculadora moderna desenvolvida em JavaFX com interface gráfica estilizada, suporte a operações matemáticas ilimitadas e histórico de cálculos.
 
