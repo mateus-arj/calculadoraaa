@@ -49,10 +49,33 @@
               "/>
 
     <!-- BOTÕES -->
+    <Button fx:id="modoBotao"
+            text="Modo: Normal"
+            onAction="#alternarModo"
+            style="
+        -fx-background-color: #444;
+        -fx-text-fill: white;
+        -fx-font-size: 16px;
+        -fx-background-radius: 15;
+        -fx-pref-width: 220;
+        -fx-pref-height: 45;
+        "/>
 
     <GridPane alignment="CENTER"
               hgap="12"
               vgap="12">
+
+        <Button text="(" onAction="#parentese"
+                GridPane.rowIndex="5"
+                GridPane.columnIndex="0"
+                style="-fx-background-color:#555; -fx-text-fill:white; -fx-font-size:22px; -fx-background-radius:20; -fx-pref-width:80; -fx-pref-height:70;"/>
+
+        <Button text=")" onAction="#parentese"
+                GridPane.rowIndex="5"
+                GridPane.columnIndex="1"
+                style="-fx-background-color:#555; -fx-text-fill:white; -fx-font-size:22px; -fx-background-radius:20; -fx-pref-width:80; -fx-pref-height:70;"/>
+
+
 
         <Button text="7" onAction="#numero"
                 GridPane.rowIndex="0"
